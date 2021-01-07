@@ -3,7 +3,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    Redirect
   } from "react-router-dom";
 import { About } from '../components/info/About';
 import { Proyectos } from '../components/proyectos/Proyectos';
@@ -22,8 +23,10 @@ export const AppRouter = () => {
             <Switch>
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/proyectos" component={Proyectos}/>
-                <Route exact path="/" component={HomeScreen}/>
                 <Route exact path="/contacto" component={Contacto}/>
+                <Route exact path="/" component={HomeScreen}/>
+                
+                <Redirect to="/about"/>
 
                 
             </Switch>
