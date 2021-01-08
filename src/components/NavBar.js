@@ -19,7 +19,7 @@ export const NavBar = () => {
         </li>
 
         <li className="nav-item" id="cw" >
-        <a href="https://api.whatsapp.com/send?phone=3113889619&text= Hola!%20Quiero%20contratar%20sus%20servicios!"><img id="wasap" src="https://i.pinimg.com/originals/57/93/fa/5793fa77a347969c747ecf703c2aee90.png" alt="wasa"></img></a>
+        <a href="https://api.whatsapp.com/send?phone=5753113889619&text= Hola!%20Quiero%20contratar%20sus%20servicios!"><img id="wasap" src="https://i.pinimg.com/originals/57/93/fa/5793fa77a347969c747ecf703c2aee90.png" alt="wasa"></img></a>
 
 </li>
         <li className="nav-item" id="cw">
