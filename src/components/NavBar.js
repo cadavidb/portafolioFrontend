@@ -18,9 +18,14 @@ export const NavBar = () => {
          <Link className="nav-link" to="/proyectos">Proyectos</Link>
         </li>
 
-        <li className="nav-item">
-         <Link className="nav-link" to="contacto">contactame</Link>
-        </li>
+        <li className="nav-item" id="cw" >
+        <a href="https://api.whatsapp.com/send?phone=3113889619&text= Hola!%20Quiero%20contratar%20sus%20servicios!"><img id="wasap" src="https://i.pinimg.com/originals/57/93/fa/5793fa77a347969c747ecf703c2aee90.png" alt="wasa"></img></a>
+
+</li>
+        <li className="nav-item" id="cw">
+        <a href="https://www.facebook.com/brayan.cadavid.9674" alt="wasa"><img key="facebook" alt="fb" src="https://i.pinimg.com/originals/ce/c8/a6/cec8a6239de29acbfcfee0ccec995b9f.png" id="wasap"></img></a>
+
+</li>
        
       </ul>
     </div>
